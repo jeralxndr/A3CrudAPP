@@ -2,48 +2,25 @@
 <%- include Partials/main_nav.ejs%>
 <!-- About Us Page -->
 <link rel="stylesheet" href="/Content/aboutus.css">
-<main class="container about-section">
-    <div class="row">
-        <div class="col-md-10 offset-md-1">
-            <h1 class="text-center">About Us</h1> 
-            <section class="introduction">
-                <p>Welcome to J's Agency, we turn regular people into models, and existing models into better ones.</p>
-            </section>
-
-            <section class="importance">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>Who are we</h2>
-                        <p>Modelling is more than what just meets the eye. It tells a story of fashion and personality. We show that no matter who you are, you can shine</p>
-                        <ul>
-                            <li><strong>Experience:</strong> Our free consultations allow you to grab portfolio pictures for an entry to the modelling scene.</li>
-                            <li><strong>Connections:</strong> Having a strong list of agents on call, our connections allow you to really have a chance in the industry.</li>
-                            <li><strong>Benefits:</strong> With our MOT program, we provide insurance and health benefits to all who model with us.</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="/Assets/images/image1.jpg" alt="shoot pic" class="img-fluid">
-                    </div>
-                </div>
-            </section>
-
-            <section class="risks">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="/Assets/images/shoot_pic.jpg" alt="Risks of Neglecting Financial Security" class="img-fluid">
-                    </div>
-                    <div class="col-md-6">
-                        <h2>Why you should model with us</h2>
-                        <p>J's Agency has been planting the seed for new models for over a decade, and here's why:</p>
-                        <ul>
-                            <li><strong>Creativity and Design:</strong> Fashion modeling brings clothing and accessories to life, allowing designers to showcase their creativity and how their pieces look and move on a real person.</li>
-                            <li><strong>Inspire Others:</strong> Models help shape fashion trends and inspire audiences by demonstrating how to wear and style outfits, influencing personal and cultural fashion choices.</li>
-                            <li><strong>Promote diversity and inclusivity:</strong> Modern modeling celebrates various body types, ethnicities, and styles, promoting inclusivity and empowering individuals to feel confident in their uniqueness.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+<main>
+        <div id="project1-container">
+            <p class="pic1-header">Who are we</Header></p>
+            <img class="project-one-pic" src="Assets\images\shoot_pic.jpg" alt="shoot pic">
+            <p class="pic1-text">test</p>
         </div>
-    </div>
-</main>
+
+        <div id="project2-container">
+            <p class="pic2-header">Fill out an application now!</p>
+            <img class="project-one-pic" src="Assets\images\image1.jpg" alt="shoot pic">
+        </div>
+
+        <section class="quotes-section">
+        <h2>Client Reviews!</h2>
+        <div class="quote">
+            <p>"J's Agency helped me create my modelling portfolio. The agents are top tier and will find you work anywhere around the world!" - Anonymous</p>
+        </div>
+        <div class="quote">
+            <p>"I have gained so much self confidence and have been able to put myself out there more since joining the agency!" - Zuhair Mohammed</p>
+        </div>
+    </main>
 <%- include Partials/footer.ejs%>
