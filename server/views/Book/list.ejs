@@ -8,7 +8,7 @@
             <h1><%= title %></h1>
             <br>
             <a href="/bookslist/add" class="btn btn-primary" role="button">
-                <i class="fas fa-plus-circle"></i> Add Financial Entry
+                <i class="fas fa-plus-circle"></i> Add Information
             </a>
             <table class="table table-bordered table-striped table-hover">
                 <tr class="d-flex">
@@ -25,7 +25,7 @@
                     <td class="text-center col-2"><%= BookList[count].Author %></td>
                     <td class="text-center col-2"><%= BookList[count].Published %></td>
                     <td class="text-center col-3"><%= BookList[count].Description %></td>
-                    <td class="text-center col-2"> <div class="input-group"> <div class="input-group-prepend"> <span class="input-group-text">$</span> </div> <input type="text" class="form-control" value="<%= BookList[count].Price %>" readonly> </div>
+                    <td class="text-center col-2"> <div class="input-group"> <div class="input-group-prepend"> <span class="input-group-text"></span> </div> <input type="text" class="form-control" value="<%= BookList[count].Price %>" readonly> </div>
                     <td class="text-center col-3">
                         <a href="/bookslist/edit/<%= BookList[count]._id %>" class="btn btn-primary btn-sm mb-1">
                             <i class="fas fa-pencil-alt"></i> Edit
