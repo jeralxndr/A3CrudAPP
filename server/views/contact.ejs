@@ -1,0 +1,44 @@
+<% include partials/header.ejs %>
+<% include partials/main_nav.ejs %>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Content/contact.css"> 
+</head>
+<section id="contact">
+      <h1 class="title">Contact Us</h1>
+
+      <!-- I used a website called Formspree for the contact section,
+       it give's you a short code which I used below and incoperate it into your code.
+       This allowed me to connect my contact form to my personal emailadress so whenever
+       someone submits a form it goes directly to my email and i can connect with them their. -->
+      <form
+        action="https://formspree.io/f/xgvewypn"
+        method="POST"
+      >
+        <label>
+          First Name:
+          <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+        </label>
+        <label>
+          Last Name:
+          <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+        </label>
+        <label>
+          Your email:
+          <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+        </label>
+        <label>
+          Your message:
+          <textarea name="message" placeholder="Enter your message" autocomplete="off" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+
+    <% include partials/footer.ejs %>
+</body>
+</html>
