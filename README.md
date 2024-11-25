@@ -1,3 +1,5 @@
-# finance_webapp
+Assignment 3 Web and Script
 
-# I did my own css files(List and contact)
+A CRUD application for a modelling website where clients can fill out an applicaton
+
+
